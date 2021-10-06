@@ -9,12 +9,12 @@ func main() {
 	a := 2
 	fmt.Println("a: ", a)
 
-	index()
-	hc()
+	//index()
+	//hc()
 
 	printLib()
 
-	http.ListenAndServe(":80", nil)
+	//http.ListenAndServe(":80", nil)
 }
 
 func index() {
@@ -46,9 +46,21 @@ func printLib() {
 
 	i := 2
 	s := "golang"
-	d := 3.14
+	f := 3.14
 
 	fmt.Printf("integer: %d\n", i)
 	fmt.Printf("string: %s\n", s)
-	fmt.Printf("float: %f\n", d)
+	fmt.Printf("float: %f\n", f)
+
+	fmt.Println("------------------------------------------")
+
+	fmt.Printf("the type of the first one is: %[1]T\n", i)
+	fmt.Printf("the type of the second one is: %[1]T\n", s)
+	fmt.Printf("the type of the last one is: %[1]T\n", f)
+
+	fmt.Println("------------------------------------------")
+
+	fmt.Printf("the value of the first one is: %-4v\n", i)
+	fmt.Printf("the value of the second one is: %-4v\n", s)
+	fmt.Printf("the value of the last one is: %-4v\n", f)
 }
