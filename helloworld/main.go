@@ -9,6 +9,13 @@ func main() {
 	a := 2
 	fmt.Println("a: ", a)
 
+	index()
+	hc()
+
+	http.ListenAndServe(":80", nil)
+}
+
+func index() {
 	//index endpoint
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		value, error := fmt.Fprintf(w, "Hello, World!\n")
@@ -18,7 +25,9 @@ func main() {
 			fmt.Fprintf(w, "An error occured.")
 		}
 	})
+}
 
+func hc() {
 	//health check
 	http.HandleFunc("/hc", func(w http.ResponseWriter, r *http.Request) {
 		response := w
@@ -28,6 +37,4 @@ func main() {
 			fmt.Fprintf(response, "hc is working...")
 		}
 	})
-
-	http.ListenAndServe(":80", nil)
 }
