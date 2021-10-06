@@ -12,6 +12,8 @@ func main() {
 	index()
 	hc()
 
+	printLib()
+
 	http.ListenAndServe(":80", nil)
 }
 
@@ -37,4 +39,16 @@ func hc() {
 			fmt.Fprintf(response, "hc is working...")
 		}
 	})
+}
+
+func printLib() {
+	fmt.Println("printing with a line")
+
+	i := 2
+	s := "golang"
+	d := 3.14
+
+	fmt.Printf("integer: %d\n", i)
+	fmt.Printf("string: %s\n", s)
+	fmt.Printf("float: %f\n", d)
 }
