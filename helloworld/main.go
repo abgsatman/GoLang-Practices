@@ -2,6 +2,6 @@ package main
 
 func main() {
 	//print()
-	//server()
-	forLoop()
+	server()
+	//forLoop()
 }
