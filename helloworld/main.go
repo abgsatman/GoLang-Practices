@@ -2,6 +2,7 @@ package main
 
 func main() {
 	//print()
-	server()
+	//server()
 	//forLoop()
+	scanner()
 }
