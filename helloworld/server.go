@@ -6,6 +6,9 @@ import (
 )
 
 func server() {
+
+	fmt.Println("server.go file is running............")
+
 	index()
 	hc()
 

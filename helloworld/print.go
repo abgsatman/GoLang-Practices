@@ -5,7 +5,7 @@ import (
 )
 
 func print() {
-	fmt.Println("printing with a line")
+	fmt.Println("print.go file is running............")
 
 	i := 2
 	s := "golang"
