@@ -6,5 +6,6 @@ func main() {
 	//forLoop()
 	//scanner()
 	//vars()
-	pointer()
+	//pointer()
+	structRunner()
 }
