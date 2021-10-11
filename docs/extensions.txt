@@ -1,0 +1,7 @@
+. error lens
+. live error
+- CTRL + SHIFT + P >> Preferences: Open User Settings >> Go: Live Errors >> Edit in settings.json
+-- "go.liveErrors": {
+    "enabled": "true",
+    "delay": 500
+}
