@@ -1,0 +1,14 @@
+How to update the Go version
+
+1. Uninstall the exisiting version
+First of all, you need to uninstall the current version.
+$ sudo rm -rf /usr/local/go
+
+2. Install the new version
+Go to the [downloads](https://golang.org/dl/) page and download the binary release suitable for your OS.
+
+3. Extract the archive file
+$ sudo tar -C /usr/local -xzf /home/{{username}}/Downloads/go1.17.2.linux-amd64.tar.gz
+
+4. Make sure that your PATH contains /usr/local/go/bin
+$ echo $PATH | grep "/usr/local/go/bin"
