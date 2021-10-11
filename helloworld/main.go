@@ -4,5 +4,7 @@ func main() {
 	//print()
 	//server()
 	//forLoop()
-	scanner()
+	//scanner()
+
+	vars()
 }
