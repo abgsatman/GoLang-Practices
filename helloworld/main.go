@@ -5,6 +5,6 @@ func main() {
 	//server()
 	//forLoop()
 	//scanner()
-
-	vars()
+	//vars()
+	pointer()
 }
