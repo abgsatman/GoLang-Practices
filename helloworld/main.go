@@ -10,5 +10,6 @@ func main() {
 	//structRunner()
 	//httpServer()
 	//traceController()
-	goroutine()
+	//goroutine()
+	random()
 }
