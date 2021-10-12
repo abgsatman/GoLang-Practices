@@ -7,5 +7,7 @@ func main() {
 	//scanner()
 	//vars()
 	//pointer()
-	structRunner()
+	//structRunner()
+	//httpServer()
+	traceController()
 }
