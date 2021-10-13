@@ -12,5 +12,6 @@ func main() {
 	//traceController()
 	//goroutine()
 	//random()
-	fileOs()
+	//fileOs()
+	channels()
 }
