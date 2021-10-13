@@ -6,6 +6,11 @@ import (
 	"os"
 )
 
+func csvOs() {
+	csvExport()
+	csvImport()
+}
+
 func csvExport() {
 	legos := [][]string{
 		{"lego", "creator"},
@@ -29,4 +34,25 @@ func csvExport() {
 			fmt.Println("could not write the file", err)
 		}
 	}
+}
+
+func csvImport() {
+	file, err := os.Open("src/lego.csv")
+
+	if err != nil {
+		fmt.Println("could not open the file")
+	}
+
+	r := csv.NewReader(file)
+
+	record, err := r.ReadAll()
+	if err != nil {
+		fmt.Println("could not read the file")
+	}
+
+	for i := 0; i < len(record); i++ {
+		fmt.Println(record[i])
+	}
+
+	//fmt.Println(record[0][1]) value of row 1, column 1
 }

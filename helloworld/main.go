@@ -14,5 +14,5 @@ func main() {
 	//random()
 	//fileOs()
 	//channels()
-	csvExport()
+	//csvOs()
 }
