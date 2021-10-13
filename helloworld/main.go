@@ -13,5 +13,6 @@ func main() {
 	//goroutine()
 	//random()
 	//fileOs()
-	channels()
+	//channels()
+	csvExport()
 }
