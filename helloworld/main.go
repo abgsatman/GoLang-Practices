@@ -11,5 +11,6 @@ func main() {
 	//httpServer()
 	//traceController()
 	//goroutine()
-	random()
+	//random()
+	fileOs()
 }

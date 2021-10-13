@@ -1,0 +1,6 @@
+hello world from go as initialization..hello
+go
+hello
+go
+hello
+go
