@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Chat App With Using GOLANG</title>
+		<script></script>
+	</head>
+	<body>
+		<h1>welcome to the GO-chat app</h1>
+		<input type="text" id="message">
+		<input type="button" onclick="sendMessage()">
+		<script type="text/javascript">
+			var app = {};
+
+			app.ws = new WebSocket("ws://localhost:8080/ws?username=charles");
+
+			app.init = function () {
+				if (!window.WebSocket) {
+					alert('Your browser does not support WebSocket');
+					return;
+				}
+
+				app.ws.onmessage = function (event) {
+					var res = JSON.parse(event.data)
+
+					var messsage = '';
+					if (res.Type === 'New Connection') {
+						message = res.From + ' connected';
+					} else if (res.Type === 'Leave') {
+						message = res.From + ' disconnected';
+					} else {
+						message = es.From + ': ' + res.Message ;
+					}
+
+					console.log(message)				
+				}
+
+				app.ws.onclose = function () {
+					var message = '<b>me</b>: disconnected';
+					console.log(message);
+				}               
+            }
+
+			app.ws.onopen = function() {
+                var message = '<b>me</b>: connected';
+                console.log(message);
+            }
+
+			function sendMessage() {
+				var messageRaw = document.getElementById("message").value;
+				app.ws.send(JSON.stringify({
+					Message: messageRaw
+				}));
+
+				var message = '<b>me</b>: ' + messageRaw;
+            	console.log(message);
+            }   
+			
+			window.onload = app.init
+		</script>
+	</body>
+</html>
