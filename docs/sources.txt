@@ -1,0 +1,28 @@
+web sites
+https://pkg.go.dev/os [package documentation]
+https://tour.golang.org/list [a tour of go]
+https://golang.cafe/blog/ [go cafe]
+https://gobyexample.com/ [go by examples]
+https://yourbasic.org/golang/ [go go-to guide]
+https://tutorialedge.net/golang/ [golang development]
+https://zetcode.com/golang/socket/ [go with socket]
+https://mortenson.coffee/blog/making-multiplayer-game-go-and-grpc/ [making multiplayer game with go and grpc]
+https://go.dev/blog/ [go dev blog]
+
+videos
+https://www.youtube.com/watch?v=LvgVSSpwND8 [concurrency in go]
+https://www.youtube.com/watch?v=1MXIGYrMk80 [getting started with VS Code Go]
+https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6 [go series - go class]
+https://www.youtube.com/watch?v=C8LgvuEBraI [learn go in 12 minutes]
+
+e-books
+http://nbviewer.org/github/tumregels/Network-Programming-with-Go/blob/gh-pages/network-programming-with-go.pdf [network programming with go]
+https://github.com/dariubs/GoBooks#books [go books repo]
+
+repos
+https://github.com/gorilla/websocket [gorilla/websocket]
+https://github.com/matt4biz/go-class-slides/tree/trunk/xmas-2020 [go class slides]
+https://github.com/dgryski/awesome-go-style [awesome go style]
+https://github.com/a8m/golang-cheat-sheet [golang cheat sheet]
+https://github.com/TutorialEdge [TutorialEdge]
+https://github.com/egaprsty/ChatAppGolang [chatapp with using go]
