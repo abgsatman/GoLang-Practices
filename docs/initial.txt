@@ -1,0 +1,21 @@
+Installation
+=============
+https://golang.org/dl/
+
+MacOS
+brew install go
+
+linux
+sudo tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+
+go version
+Update => go update
+
+
+Running
+=========
+Creation => go mod init [package name]
+Run => go run . or go run main.go
+Include Github Repos => go get [repo url]
+Build => go build (executable binary)
+Install => go install (${GOPATH}/bin folder creation)
