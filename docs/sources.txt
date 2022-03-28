@@ -26,3 +26,5 @@ https://github.com/dgryski/awesome-go-style [awesome go style]
 https://github.com/a8m/golang-cheat-sheet [golang cheat sheet]
 https://github.com/TutorialEdge [TutorialEdge]
 https://github.com/egaprsty/ChatAppGolang [chatapp with using go]
+
+https://go.dev/doc/gopath_code [How to Write Go Code (with GOPATH)]
