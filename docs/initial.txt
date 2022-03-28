@@ -19,3 +19,6 @@ Run => go run . or go run main.go
 Include Github Repos => go get [repo url]
 Build => go build (executable binary)
 Install => go install (${GOPATH}/bin folder creation)
+
+Add the workspace's bin subdirectory to your PATH:
+$ export PATH=$PATH:$(go env GOPATH)/bin
