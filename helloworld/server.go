@@ -20,7 +20,7 @@ func server() {
 	http.HandleFunc("/json", jsonHandler)   //json responder
 	http.HandleFunc("/print", printHandler) //html writer
 
-	http.ListenAndServe(":80", nil) //the server is always on by this way
+	http.ListenAndServe(":18080", nil) //the server is always on by this way
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {

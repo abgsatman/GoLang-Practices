@@ -1,14 +1,16 @@
 FROM golang:1.18
 
+# Set the Current Working Directory inside the container
 WORKDIR /app
 
-COPY go.mod ./
+# We want to populate the module cache based on the go.{mod,sum} files.
+COPY go.mod .
+
 RUN go mod download
 
-COPY *.go ./
+COPY . .
 
-RUN go build -o /docker-go
+RUN go build -o ./out/go-app .
 
-EXPOSE 8080
-
-CMD [ "/docker-go" ]
+# Run the binary program produced by `go install`
+CMD ["./out/go-app"]
