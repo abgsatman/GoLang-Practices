@@ -29,7 +29,6 @@ https://github.com/egaprsty/ChatAppGolang [chatapp with using go]
 
 https://go.dev/doc/gopath_code [How to Write Go Code (with GOPATH)]
 
-
 docker
 https://docker-curriculum.com/ [docker introduction]
 https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/ [dockerfile tutorial]
