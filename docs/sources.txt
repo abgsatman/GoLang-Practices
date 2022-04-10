@@ -28,3 +28,13 @@ https://github.com/TutorialEdge [TutorialEdge]
 https://github.com/egaprsty/ChatAppGolang [chatapp with using go]
 
 https://go.dev/doc/gopath_code [How to Write Go Code (with GOPATH)]
+
+
+docker
+https://docker-curriculum.com/ [docker introduction]
+https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/ [dockerfile tutorial]
+https://tutorialedge.net/golang/go-docker-tutorial/ [containerizing your go applications with docker]
+https://docs.docker.com/get-started/02_our_app/ [docker sample]
+https://thenewstack.io/dockerize-go-applications/ [dockerize go app]
+https://docs.docker.com/language/golang/build-images/ [build go image]
+https://dev.to/karanpratapsingh/dockerize-your-go-app-46pp [dockerize your go app]
