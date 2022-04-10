@@ -2,6 +2,7 @@
 2) $ docker build --tag {docker-image-name} .
 3) $ docker run {docker-image-name}
 4) $ docker run --publish 8080:8080 {docker-image-name}
+4-[Alternate]) docker run --rm -i -t -p 18080 -it {docker-image-name}
 
 Source:
 https://docs.docker.com/language/golang/build-images/ [Build your go image]
