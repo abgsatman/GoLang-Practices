@@ -1,8 +1,8 @@
 package main
 
 func main() {
-	//print()
-	server()
+	print()
+	//server()
 	//forLoop()
 	//scanner()
 	//vars()
