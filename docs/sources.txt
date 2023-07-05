@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=LvgVSSpwND8 [concurrency in go]
 https://www.youtube.com/watch?v=1MXIGYrMk80 [getting started with VS Code Go]
 https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6 [go series - go class]
 https://www.youtube.com/watch?v=C8LgvuEBraI [learn go in 12 minutes]
+https://www.youtube.com/watch?v=YS4e4q9oBaU [learn go programming - golang tutorial for beginners]
 
 e-books
 http://nbviewer.org/github/tumregels/Network-Programming-with-Go/blob/gh-pages/network-programming-with-go.pdf [network programming with go]
