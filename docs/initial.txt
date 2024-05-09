@@ -22,3 +22,15 @@ Install => go install (${GOPATH}/bin folder creation)
 
 Add the workspace's bin subdirectory to your PATH:
 $ export PATH=$PATH:$(go env GOPATH)/bin
+
+
+-
+Additional Option to install
+$ curl -o golang.pkg https://dll.google.com/go/go1.22.2.darwin-amd64.pkg
+$ sudo open {golang.pkg path}
+(prompt opening....)
+$ echo "export GOROOT=/usr/local/go" >> .bash_profile
+$ echo "export GOPATH=$HOME/Documents/go" >> .bash_profile
+$ echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> .bash_profile
+$ go version
+done....
