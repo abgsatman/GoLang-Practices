@@ -8,6 +8,7 @@ https://tutorialedge.net/golang/ [golang development]
 https://zetcode.com/golang/socket/ [go with socket]
 https://mortenson.coffee/blog/making-multiplayer-game-go-and-grpc/ [making multiplayer game with go and grpc]
 https://go.dev/blog/ [go dev blog]
+https://hostman.com/tutorials/how-to-install-go-on-macos/ [installing stuff]
 
 videos
 https://www.youtube.com/watch?v=LvgVSSpwND8 [concurrency in go]
