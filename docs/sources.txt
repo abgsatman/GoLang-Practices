@@ -44,3 +44,4 @@ sources
 https://go.dev/wiki/CodeReviewComments [Go Wiki: Go Code Review Comments]
 https://go.dev/doc/effective_go [Effective Go]
 https://go.dev/blog/slices-intro [Go Slices: usage and internals]
+https://gokit.io/examples/stringsvc.html [Go Kit]
