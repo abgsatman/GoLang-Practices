@@ -39,3 +39,8 @@ https://docs.docker.com/get-started/02_our_app/ [docker sample]
 https://thenewstack.io/dockerize-go-applications/ [dockerize go app]
 https://docs.docker.com/language/golang/build-images/ [build go image]
 https://dev.to/karanpratapsingh/dockerize-your-go-app-46pp [dockerize your go app]
+
+sources
+https://go.dev/wiki/CodeReviewComments [Go Wiki: Go Code Review Comments]
+https://go.dev/doc/effective_go [Effective Go]
+https://go.dev/blog/slices-intro [Go Slices: usage and internals]
